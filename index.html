@@ -2,40 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Old Man’s Lawn Care</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      text-align: center;
-      padding: 40px;
-    }
-    h1 {
-      color: #4CAF50;
-      font-size: 3em;
-    }
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 15px 30px;
-      font-size: 1.2em;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-top: 20px;
-      transition: background-color 0.3s;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-  </style>
 </head>
 <body>
-  <h1>Old Man’s Lawn Care</h1>
-  <p>“Your lawn is our legacy.”</p>
-  <button onclick="window.location.href='lawn-info.html'">Learn More About Our Services</button>
+  <header>
+    <h1>Old Man’s Lawn Care Services</h1>
+  </header>
+
+  <div class="container">
+    <section class="info-section">
+      <img src="https://via.placeholder.com/500x300?text=Lawn+Care+1" alt="Lawn care service">
+      <div>
+        <h2>Expert Lawn Mowing</h2>
+        <p>High-quality mowing for residential and commercial properties. Reliable, clean, and consistent every week.</p>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <img src="https://via.placeholder.com/500x300?text=Lawn+Care+2" alt="Lawn care service">
+      <div>
+        <h2>Fertilization & Weed Control</h2>
+        <p>Eco-safe products to strengthen your lawn and kill weeds fast. No harsh chemicals, just green grass.</p>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <img src="https://via.placeholder.com/500x300?text=Lawn+Care+3" alt="Lawn care service">
+      <div>
+        <h2>Aeration & Overseeding</h2>
+        <p>Let your lawn breathe. We poke holes and reseed to restore patchy grass to full health.</p>
+      </div>
+    </section>
+
+    <!-- Button to Navigate to Lawn Info Page -->
+    <section>
+      <button onclick="window.location.href='lawn-info.html'">Click Me to Learn More</button>
+    </section>
+  </div>
+
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <p>📞 555-123-4567 | ✉️ info@oldmanslawncare.com</p>
+    <a href="lawn-info.html">⬅ Back to Lawn Services</a>
+  </div>
 </body>
 </html>
